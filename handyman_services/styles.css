@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #0095f6;
+    color: white;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none; 
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bb5;
+}
+
+.services, .why-choose-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px auto;
+}
+
+.services h2, .why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.services ul, .why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li, .why-choose-us ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.services ul li strong, .why-choose-us ul li strong {
+    color: #0095f6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+form {
+    background-color: white;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dbdbdb;
+}
+
+form label {
+    font-size: 14px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="time"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fafafa;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #0095f6;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #0095f6;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; }
+
+form input[type="submit"]:hover {
+    background-color: #007bb5;
+}
+
